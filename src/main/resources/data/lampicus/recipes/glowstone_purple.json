@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#B#",
+      "BAB",
+      "#B#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:glass"
+      },
+      "A": {
+        "item": "minecraft:purple_stained_glass"
+      },
+      "B": {
+        "item": "lampicus:glowstone_white"
+      }
+    },
+    "result": {
+      "item": "lampicus:glowstone_purple",
+      "count": 6
+    }
+  }

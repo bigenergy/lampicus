@@ -1,0 +1,10 @@
+{
+  "itemGroup.lampicus": "Lampicus",
+
+  "block.lampicus.glowstone_diamond": "Алмазный светокамень",
+  "block.lampicus.glowstone_white": "Белый светокамень",
+  "block.lampicus.glowstone_purple": "Фиолетовый светокамень",
+
+  "block.lampicus.redstone_lamp_inverted": "Обратный редстоуновый фонарь",
+  "tooltip.lampicus.redstone_lamp_inverted": "Гаснет при подаче сигнала редстоуна"
+}

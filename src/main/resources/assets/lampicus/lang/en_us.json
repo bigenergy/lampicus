@@ -1,0 +1,10 @@
+{
+  "itemGroup.lampicus": "Lampicus",
+
+  "block.lampicus.glowstone_diamond": "Diamond Glowstone",
+  "block.lampicus.glowstone_white": "White Glowstone",
+  "block.lampicus.glowstone_purple": "Purple Glowstone",
+
+  "block.lampicus.redstone_lamp_inverted": "Inverted Redstone Lamp",
+  "tooltip.lampicus.redstone_lamp_inverted": "Goes off when a redstone signal is given"
+}

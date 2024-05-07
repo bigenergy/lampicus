@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#B#",
+      "BAB",
+      "#B#"
+    ],
+    "key": {
+      "#": {
+        "item": "lampicus:glowstone_purple"
+      },
+      "A": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "item": "lampicus:glowstone_white"
+      }
+    },
+    "result": {
+      "item": "lampicus:glowstone_diamond",
+      "count": 8
+    }
+  }
