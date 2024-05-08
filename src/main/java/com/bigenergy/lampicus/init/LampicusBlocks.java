@@ -3,6 +3,7 @@ package com.bigenergy.lampicus.init;
 import com.bigenergy.lampicus.Lampicus;
 import com.bigenergy.lampicus.block.LampicusLightBlock;
 import com.bigenergy.lampicus.block.InvertedLampBlock;
+import com.bigenergy.lampicus.tab.LampicusCreativeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -36,7 +37,7 @@ public class LampicusBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return LampicusItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        return LampicusItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(LampicusCreativeTab.LAMPICUS)));
     }
 
 
