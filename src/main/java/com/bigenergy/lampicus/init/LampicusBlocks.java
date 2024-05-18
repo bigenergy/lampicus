@@ -26,7 +26,7 @@ public class LampicusBlocks {
             new LampicusLightBlock(glowstoneProp()));
 
     public static final RegistryObject<Block> REDSTONE_LAMP_INVERTED = registerBlock("redstone_lamp_inverted", () ->
-            new InvertedLampBlock(Block.Properties.copy(Blocks.REDSTONE_LAMP)));
+            new InvertedLampBlock(Block.Properties.ofFullCopy(Blocks.REDSTONE_LAMP)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -45,6 +45,6 @@ public class LampicusBlocks {
     }
 
     private static Block.Properties glowstoneProp() {
-        return Block.Properties.copy(Blocks.GLOWSTONE);
+        return Block.Properties.ofFullCopy(Blocks.GLOWSTONE);
     }
 }
