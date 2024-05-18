@@ -3,8 +3,8 @@ package com.bigenergy.lampicus.block;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -21,6 +21,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 import javax.annotation.Nullable;
 import java.util.List;
+import java.util.Random;
 
 public class InvertedLampBlock extends RedstoneLampBlock {
     public InvertedLampBlock(Properties properties) {
@@ -51,7 +52,7 @@ public class InvertedLampBlock extends RedstoneLampBlock {
         }
     }
 
-    public void tick(BlockState p_221937_, ServerLevel p_221938_, BlockPos p_221939_, RandomSource p_221940_) {
+    public void tick(BlockState p_221937_, ServerLevel p_221938_, BlockPos p_221939_, Random p_221940_) {
         if (p_221937_.getValue(LIT) && p_221938_.hasNeighborSignal(p_221939_)) {
             p_221938_.setBlock(p_221939_, p_221937_.cycle(LIT), 2);
         }
@@ -70,6 +71,6 @@ public class InvertedLampBlock extends RedstoneLampBlock {
     @OnlyIn(Dist.CLIENT)
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter worldIn, List<Component> tooltip, TooltipFlag flagIn) {
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
-        tooltip.add(Component.translatable("tooltip.lampicus.redstone_lamp_inverted").withStyle(ChatFormatting.GOLD));
+        tooltip.add((new TranslatableComponent("tooltip.lampicus.redstone_lamp_inverted")).withStyle(ChatFormatting.GOLD));
     }
 }
