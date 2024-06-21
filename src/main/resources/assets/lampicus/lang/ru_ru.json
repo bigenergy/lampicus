@@ -1,0 +1,26 @@
+{
+  "itemGroup.lampicus": "Lampicus",
+
+  "block.lampicus.glowstone_diamond": "Алмазный светокамень",
+  "block.lampicus.glowstone_white": "Белый светокамень",
+  "block.lampicus.glowstone_purple": "Фиолетовый светокамень",
+
+  "block.lampicus.redstone_lamp_inverted": "Обратный редстоуновый фонарь",
+  "tooltip.lampicus.redstone_lamp_inverted": "Гаснет при подаче сигнала редстоуна",
+
+  "block.lampicus.colorlight_black": "Чёрный фонарь",
+  "block.lampicus.colorlight_blue": "Голубой фонарь",
+  "block.lampicus.colorlight_brown": "Коричневый фонарь",
+  "block.lampicus.colorlight_cyan": "Бирюзовый фонарь",
+  "block.lampicus.colorlight_gray": "Серый фонарь",
+  "block.lampicus.colorlight_green": "Зелёный фонарь",
+  "block.lampicus.colorlight_lightblue": "Голубой фонарь",
+  "block.lampicus.colorlight_lightgray": "Светло-серый фонарь",
+  "block.lampicus.colorlight_magenta": "Пурпурный фонарь",
+  "block.lampicus.colorlight_orange": "Оранжевый фонарь",
+  "block.lampicus.colorlight_pink": "Розовый фонарь",
+  "block.lampicus.colorlight_purple": "Фиолетовый фонарь",
+  "block.lampicus.colorlight_red": "Красный фонарь",
+  "block.lampicus.colorlight_white": "Белый фонарь",
+  "block.lampicus.colorlight_yellow": "Жёлтый фонарь"
+}

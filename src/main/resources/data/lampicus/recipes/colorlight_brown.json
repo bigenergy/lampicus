@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BAB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass"
+        },
+        "A": {
+            "item": "minecraft:brown_wool"
+        },
+        "B": {
+            "item": "minecraft:glowstone"
+        }
+    },
+    "result": {
+        "item": "lampicus:colorlight_brown",
+        "count": 4
+    }
+}

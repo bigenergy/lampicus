@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "lampicus:block/redstone_lamp_inverted"
+    },
+    "lit=true": {
+      "model": "lampicus:block/redstone_lamp_inverted_on"
+    }
+  }
+}
