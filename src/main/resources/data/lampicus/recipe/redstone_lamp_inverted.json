@@ -14,7 +14,7 @@
       }
     },
     "result": {
-      "item": "lampicus:redstone_lamp_inverted",
+      "id": "lampicus:redstone_lamp_inverted",
       "count": 1
     }
   }

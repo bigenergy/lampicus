@@ -7,17 +7,17 @@
     ],
     "key": {
       "#": {
-        "item": "minecraft:glass"
+        "item": "lampicus:glowstone_purple"
       },
       "A": {
-        "item": "minecraft:white_dye"
+        "item": "minecraft:diamond"
       },
       "B": {
-        "item": "minecraft:glowstone"
+        "item": "lampicus:glowstone_white"
       }
     },
     "result": {
-      "item": "lampicus:glowstone_white",
-      "count": 6
+      "id": "lampicus:glowstone_diamond",
+      "count": 8
     }
   }

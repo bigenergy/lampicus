@@ -10,14 +10,14 @@
             "item": "minecraft:glass"
         },
         "A": {
-            "item": "minecraft:magenta_wool"
+            "item": "minecraft:pink_wool"
         },
         "B": {
             "item": "minecraft:glowstone"
         }
     },
     "result": {
-        "item": "lampicus:colorlight_magenta",
+        "id": "lampicus:colorlight_pink",
         "count": 4
     }
 }
