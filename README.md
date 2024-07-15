@@ -1,4 +1,6 @@
 # Lampicus MC mod
+<img src="https://raw.githubusercontent.com/bigenergy/lampicus/0cce230df1670d06f3e105365672b82b251c0efd/assets/screenshot.png">
+<br>
 The mod adds several glowing unique blocks. Including inverted vanilla lamp.
 <ul>
   <li>three variations of glowstones</li>
