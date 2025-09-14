@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category" : "misc",
+    "pattern": [
+        " # ",
+        "#!#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:tinted_glass"
+        },
+        "!":{
+            "item": "lampucis:lime_lantern"
+        }
+
+    },
+    "result": {
+        "id": "lampucis:tinted_lime_lantern",
+        "count":1
+    }
+}

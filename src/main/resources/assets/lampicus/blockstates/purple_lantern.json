@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "hanging=false":{
+            "model": "lampicus:block/purple_lantern"
+        },
+        "hanging=true":{
+            "model": "lampicus:block/purple_hanging_lantern"
+        }
+    }
+}

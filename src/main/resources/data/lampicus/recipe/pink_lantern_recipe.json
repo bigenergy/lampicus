@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category" : "misc",
+    "pattern": [
+        " # ",
+        "#!#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pink_stained_glass"
+        },
+        "!":{
+            "item": "minecraft:soul_lantern"
+        }
+
+    },
+    "result": {
+        "id": "lampucis:pink_lantern",
+        "count":1
+    }
+}
