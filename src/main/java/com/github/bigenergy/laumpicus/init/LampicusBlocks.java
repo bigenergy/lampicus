@@ -65,37 +65,37 @@ public class LampicusBlocks {
             new LampicusLightBlock(glowstoneProp()));
 
     public static final DeferredBlock<Block> RED_LANTERN = registerBlock("red_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> YELLOW_LANTERN = registerBlock("yellow_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> GREEN_LANTERN = registerBlock("green_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> ORANGE_LANTERN = registerBlock("orange_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> LIME_LANTERN = registerBlock("lime_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> CYAN_LANTERN = registerBlock("cyan_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> BLUE_LANTERN = registerBlock("blue_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> LIGHT_BLUE_LANTERN = registerBlock("light_blue_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> PURPLE_LANTERN = registerBlock("purple_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> MAGENTA_LANTERN = registerBlock("magenta_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> PINK_LANTERN = registerBlock("pink_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> BROWN_LANTERN = registerBlock("brown_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> BLACK_LANTERN = registerBlock("black_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> DARK_GRAY_LANTERN = registerBlock("dark_gray_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> LIGHT_GRAY_LANTERN = registerBlock("light_gray_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
     public static final DeferredBlock<Block> WHITE = registerBlock("white_lantern",
-            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
+            () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LANTERN)));
 
     public static final DeferredBlock<Block> TINTED_RED_LANTERN = registerBlock("tinted_red_lantern", () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
     public static final DeferredBlock<Block> TINTED_YELLOW_LANTERN = registerBlock("tinted_yellow_lantern", () -> new LampicusLanternBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SOUL_LANTERN)));
